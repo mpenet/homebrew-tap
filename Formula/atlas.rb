@@ -2,28 +2,28 @@
 class Atlas < Formula
   desc "Call OpenAPI APIs and run Arazzo workflows from the command-line"
   homepage "https://github.com/mpenet/atlas"
-  version "1.0.0-beta6"
+  version "1.0.0-beta7"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta6/atlas-macos-arm64"
-      sha256 "9344ee1b67c07bc33fec71cf25083736f7e3f80209664d03f313a1a887c1b3f4"
+      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta7/atlas-macos-arm64"
+      sha256 "96d5772585fed302ffb7ec18b2d34adef76edaf7385a4e7b3263e071a1052be3"
     end
     on_intel do
-      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta6/atlas-macos-x86_64"
-      sha256 "d0965871b708faaa26db4082e57738418048aee0aac1f3f598af0d0a335d1ab7"
+      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta7/atlas-macos-x86_64"
+      sha256 "6f7a91cef1b63e2b82e85b5d36661a9aab397fe5b47e874466ff8a479391a05e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta6/atlas-linux-arm64"
-      sha256 "53da03f7d9539fa26035b551b667838643e45472f9ee0a19d04697b01d5fda23"
+      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta7/atlas-linux-arm64"
+      sha256 "e990417d852bd71dfe5b5961a956405a1155b677a99e96e4d85f9a71c6dd7744"
     end
     on_intel do
-      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta6/atlas-linux-x86_64"
-      sha256 "00e12dbf861d5d742207389047fcda142b5cd9461bd51d1b9ed936a5db6cef27"
+      url "https://github.com/mpenet/atlas/releases/download/v1.0.0-beta7/atlas-linux-x86_64"
+      sha256 "60e4127e4c190bd4b721f68a368ecab93a6a61fbe0ac71d58d99230b47ba8bf9"
     end
   end
 
