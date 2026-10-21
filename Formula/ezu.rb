@@ -2,28 +2,28 @@
 class Ezu < Formula
   desc "Call OpenAPI APIs and run Arazzo workflows from the command-line"
   homepage "https://github.com/mpenet/ezu"
-  version "1.0.0-beta9"
+  version "1.0.0-beta10"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta9/ezu-macos-arm64"
-      sha256 "8719edec7e5cc29132f7113d4e00efc24ef10b7d79d29fdf173ba0cf1739e8bb"
+      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta10/ezu-macos-arm64"
+      sha256 "6b6a2fec8413706e0b5babe4b7af426b42c9acacb63c7ef1eef256ff04987045"
     end
     on_intel do
-      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta9/ezu-macos-x86_64"
-      sha256 "612ff89a9623a557d7670cbedbf811227f1c91a90d20f25cf4826bde51198877"
+      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta10/ezu-macos-x86_64"
+      sha256 "708e26be5f3ce99e5cfff153954ca63361a53302890c31c852280817ea1a1c4f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta9/ezu-linux-arm64"
-      sha256 "bb6b3b28a29eafef0823fc485763ad9ea3abe67abab8ba69eafabcb398a4cf67"
+      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta10/ezu-linux-arm64"
+      sha256 "f2194a7688b4897e00ba21ac97e3dfe7003b8bd8b9ebac49852b53da9ac95c28"
     end
     on_intel do
-      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta9/ezu-linux-x86_64"
-      sha256 "269ccd7c918c591204401ce16aa6653c311332c312220905ca953864bc0a74f4"
+      url "https://github.com/mpenet/ezu/releases/download/v1.0.0-beta10/ezu-linux-x86_64"
+      sha256 "9d96bf77276c76208d6c7aa3ba17ba4554aad5bb6a082585832820e69ec6890a"
     end
   end
 
